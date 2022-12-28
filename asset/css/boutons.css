@@ -1,0 +1,38 @@
+.btn {
+    padding: 0.5rem 1rem;
+    font-family: var(--font-famille-texte);
+    text-decoration: none;
+    font-size: 0.8em;
+    cursor: pointer;
+    outline: none;
+    border-radius: var(--bordure-rayon);
+}
+
+
+.primaire {
+    background: var(--primaire);
+    color: var(--txtClaire);
+    border: none;
+}
+
+.mise{
+    background: #910717;
+    color: var(--txtClaire);
+    border: none;
+}
+.primaire:hover {
+    color: var(--primaire);
+    background: var(--txtClaire);
+}
+
+.mise:hover {
+    color: #910717;
+    background: var(--txtClaire);
+}
+
+.btn_miser_maintenant{
+    padding: 20px;
+    margin-left: 20px;
+  
+   
+}

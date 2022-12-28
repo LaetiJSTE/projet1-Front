@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="site de vente de timbre" content="html, css, js">
+   <meta author=" laetitia juste - 2194565">
+
+   <!-- CSS  -->
+   <link rel="stylesheet" href="./asset/css/nav.css">
+   <link rel="stylesheet" href="./asset/css/ficheProduit.css">
+   <link rel="stylesheet" href="./asset/css/rythme.css">
+   <link rel="stylesheet" href="./asset/css/footer.css">
+   <link rel="stylesheet" href="./asset/css/boutons.css">
+   <link rel="stylesheet" href="./asset/css/form.css">
+   <link rel="stylesheet" href="./asset/css/variables.css">
+   <link rel="stylesheet" href="./asset/css/mediaqueries.css">
+
+   <!-- script -->
+   <script type="module" src="./asset/scripts/main.js" defer></script>
+
+   <!-- menu hamburger fafa -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+   <!-- google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/8fcbeea4e9.js" crossorigin="anonymous"></script>
+
+
+   <title>STAMPEE</title>
+</head>
+
+<body>
+
+   <!-- navigation Secondaire-->
+   <header>
+      <a href="index.html" class="logo"><img src="./asset/img/logoStampee-2.png" alt="logo Stampee"></a>
+      <div class="menu-container">
+         <div class="menu-utilisateur">
+            <a href="inscription.html" class="icone__menu"><img src="./asset/img/stylo.png" alt="icone-coeur">Inscription</a>
+            <a href="connexion.html"><img src="./asset/img/user.svg" alt="icone-utilisateur">Connexion</a>
+         </div>
+
+
+         <!-- navigation Principale  -->
+         <nav>
+            <ul>
+               <li><a href="index.html">Accueil</a></li>
+               <li><a href="catalogue.html">Catalogue</a></li>
+               <li><a href="nouvelleEnchere.html">nouvelle enchere</a></li>
+               <li><a href="#" class="dropdown">À propos
+                     <div class="dropdown-content">
+                        <p>À propos 1</p>
+                        <p>À propos 2</p>
+                        <p>À propos 3</p>
+                        <p>À propos 4</p>
+                     </div>
+                  </a></li>
+            </ul>
+         </nav>
+      </div>
+
+
+      <!-- Menu hamburger -->
+      <div class="burger__menu">
+         <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">&times;</a>
+            <ul>
+               <li><a href="#">Connexion</a></li>
+               <li><a href="#">Inscription</a></li>
+               <li><a href="index.html">Accueil</a></li>
+               <li><a href="catalogue.html">Catalogue</a></li>
+               <li><a href="nouvelleEnchere.html">nouvelle enchere</a></li>
+               <li><a href="#" class="dropdown">À propos
+                     <div class="dropdown-content">
+                        <p>À propos 1</p>
+                        <p>À propos 2</p>
+                        <p>À propos 3</p>
+                        <p>À propos 4</p>
+                     </div>
+                  </a></li>
+            </ul>
+         </div>
+         <a href="#" id="openBtn">
+            <span class="burger-icon">
+               <span></span>
+               <span></span>
+               <span></span>
+            </span>
+         </a>
+      </div>
+   </header>
+
+   <!-- hero principale-->
+   <section class="img__hero__ficheProduit imgs__heros">
+      <div>
+         <h2>Fiche Produit</h2>
+         <form class="rechercher"><input type="search" placeholder="Recherche"></form>
+   </section>
+   </div>
+
+   <!-- carte produit -->
+   <div class="container resumeTimbre">
+      <div class="carte">
+         <a href="ficheProduit.html">
+            <h1>Lot N 1234 <i class="fa-regular fa-heart" style="font-size: 30px;"></i></h1><br>
+
+            <!--zoom-->
+            <div id="img-zoomer-box">
+               <img src="asset/img/timbre.jpg" alt="timbre" id="img-1">
+               <div id="img-2"></div>
+            </div>
+
+            <div class="img__produit">
+               <img src="asset/img/timbre.jpg" alt="timbre">
+               <img src="asset/img/timbre.jpg" alt="timbre">
+               <img src="asset/img/timbre.jpg" alt="timbre"><br>
+            </div><br>
+            <br>
+            <h3>
+               Prix : 000,00 $ CAD <br>
+               Nombre d'enchère : 3 <br>
+            </h3>
+
+            <!-- texte / descritpion-->
+            <div class="text__timbre">
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Molestias dolorem harum ratione soluta
+                  facere nemo. <br>
+                  Quae velit similique, praesentium adipisci tempore corrupti <br> libero sint quod! Odio perferendis
+                  architecto ab quam.
+                  Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Nemo animi porro culpa dignissimos
+                  maxime
+                  repudiandae <br> quo,
+                  facilis consequatur. Vero non doloribus corrupti <br> nostrum sequi id sunt ipsa! Quas, incidunt quae!
+               </p>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Molestias dolorem harum ratione soluta
+                  facere nemo. <br>
+                  Quae velit similique, praesentium adipisci tempore corrupti <br> libero sint quod! Odio perferendis
+               </p>
+               <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Molestias dolorem harum ratione soluta
+                  facere nemo. <br>
+                  Quae velit similique, praesentium adipisci tempore corrupti <br> libero sint quod! Odio perferendis
+                  architecto ab quam.
+               </p>
+            </div>
+            <button class="btn primaire">Suivre</button>
+            <button class="btn mise">Miser</button>
+         </a>
+      </div>
+   </div>
+
+   <!-- section commentaires-->
+   <section>
+      <h2>Commentaires</h2>
+      <div class="container temoignage">
+         <div>
+            <img src="./asset/img/comment.jpg" alt="laeti">
+         </div>
+         <div>
+            <blockquote>Je n'aime pas les Timbres!Lorem ipsum dolor sit amet, consectetur adipisicing el</blockquote>
+            <h4 class="noMargin">Laetitia Juste</h4>
+         </div>
+      </div>
+
+
+      <div class="container temoignage">
+         <div>
+            <img src="./asset/img/comment.jpg" alt="Benard">
+         </div>
+         <div>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptatem harum
+               repudiandae esse
+               <br> laboriosam voluptate magni dolorum sed fugit at id maiores quibusdam magnam distinctio
+            </blockquote>
+            <h4 class="noMargin">Bernard machin</h4>
+         </div>
+      </div>
+
+      <div class="container temoignage">
+         <div>
+            <img src="./asset/img/comment.jpg" alt="Benard">
+         </div>
+         <div>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptatem harum
+               repudiandae esse
+            </blockquote>
+            <h4 class="noMargin">Elisabeth Truc</h4>
+         </div>
+      </div> 
+      <div class="interaction__pied">
+         <img class="interaction__pied__image-profil" src="./asset/img/comment.jpg" alt="laeti">
+         <input class="interaction__pied__champ" type="text" placeholder="ajouter un commentaire">
+      </div><br>
+
+      <a href="#">Afficher tous les Commentaires</a>
+   </section>
+
+   <!-- hero secondaire -->
+   <section class="img__gde">
+      <div>
+         <h2>Devenez membre </h2>
+         <button class="btn primaire"><a href="inscription.html">inscription</a></button>
+      </div>
+   </section>
+
+   <!-- newslettre / formulaire d'Inscription-->
+   <section class="newletter">
+      <h5 class="form-title">Connexion</h5>
+      <form data-js-form>
+         <span id="erreur" style="color: red;"></span>
+         <input type="text" placeholder="Nom d'utilisateur">
+         <input type="tel" placeholder="Mot de passe">
+         <button class="btn primaire" type="button">Se connecter</button>
+      </form>
+   </section>
+
+   <!-- Footer -->
+   <footer>
+      <div class="container">
+         <nav>
+            <ul class="navFooter">
+               <li><a href="#">Devenir membre</a></li>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Actualités</a></li>
+               <li><a href="#">Presse</a></li>
+               <li><a href="#">Contactez-nous</a></li>
+            </ul>
+         </nav>
+      </div>
+      </div>
+      <div class="copyright">
+         <p>Tous droits réservés &copy; 2022 Stampee laetitia Juste</p>
+      </div>
+   </footer>
+</body>
+
+</html>
